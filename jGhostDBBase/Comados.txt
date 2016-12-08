@@ -1,0 +1,63 @@
+1.- Login
+        LOGIN userName password
+
+2.- Crear lista: 
+    CREATE listName
+
+3.- Agregar elemento
+
+    INSERT dato INTO nombreLista
+
+4.- Obtener todos los elementos
+
+    GET ALL FROM nombreLista ó GET ALL ELEMENTS FROM nombreLista
+
+5.- Obtener elemento por algun atributo
+
+    GET ELEMENT BY nombreAtributo = algo FROM nombreLista ó
+    GET ELEMENT BY nombreAtributo %= algo (contiene) FROM nombreLista
+
+6.- Obtener elemento por índice
+
+    GET ELEMENT 2 FROM  nombreLista
+
+7.- Setear elemento por índice
+
+    SET ELEMENT 2 TO nuevoDato FROM nombreLista
+
+8.- Setear elemento por algun atributo
+
+    SET ELEMENT BY nombreAtributo = algo TO nuevoDato FROM nombreLista ó
+    SET ELEMENT BY nombreAtributo %= algo (contiene) TO nuevoDato FROM nombreLista
+
+9.- Borrar elemento por índice:
+
+    DELETE ELEMENT 2 FROM nombreLista
+
+10.- Borrar elemento por algun atributo
+
+    DELETE ELEMENT BY nombreAtributo = algo FROM nombreLista ó
+    DELETE ELEMENT BY nombreAtributo %= algo (contiene) FROM nombreLista
+    DEL ELEMENT BY nombreAtributo = algo FROM nombreLista ó
+    DEL ELEMENT BY nombreAtributo %= algo (contiene) FROM nombreLista
+
+** Se puede escribir comando como codigo compilado agregando * al principio y final del comando
+
+Transformacion al compilar:
+
+    LOGIN --> L1
+    CREATE --> CR3
+    GET --> G1
+    SET --> S1
+    DELETE Ó DEL --> D3
+    INSERT --> I9
+    INTO --> I0
+    ALL -> A1
+    FROM --> F8
+    ELEMENT --> E3
+    ELEMENTS --> E5
+    BY --> B7
+    TO --> T2
+    = --> ?
+    %= --> ¡
+    
